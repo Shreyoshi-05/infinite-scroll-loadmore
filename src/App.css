@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card_container{
+  padding: 2rem 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card{
+  display: flex;
+  /* gap: 2rem; */
+  flex-direction: column;
+  border: 1px solid black;
+  /* height: 5rem; */
+  width: 20rem;
+  height: 8rem;
+  align-items: center;
+  padding:2rem;
+  gap: 1rem;
+  text-align: center;
+  margin: 1rem;
+}
+.card p{
+  width: 10rem;
+}
