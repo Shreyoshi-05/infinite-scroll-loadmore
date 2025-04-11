@@ -7,7 +7,7 @@ import Scroll from './scroll/Scroll.jsx'
 createRoot(document.getElementById('root')).render(
     <>
     {/* <App /> */}
-    <Scroll />
-    {/* <Lodemore /> */}
+    {/* <Scroll /> */}
+    <Lodemore />
     </>
 )
